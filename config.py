@@ -5,9 +5,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "1701392")  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "96089a340f2892fd06aea683cbfb73c0") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6089573252:AAEXVeje-ie8ahsaCL9tQtERNF-OcT6NOs0") # ⚠️ Required
+    API_ID    = os.environ.get("API_ID", "24314944")  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "608c07ba57d9130d9974c9b3639ec570") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6463184992:AAEGu_OXXXWpnKIyop0L4WHwepvSddstRJg") # ⚠️ Required
     FORCE_SUB = os.environ.get('FORCE_SUB', 'Opleech') # ⚠️ Required
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None
@@ -17,7 +17,7 @@ class Config(object):
     DB_NAME  = os.environ.get("DB_NAME","WOODEncoderBot") 
 
     # Other Configs 
-    ADMIN = int(os.environ.get("ADMIN", "5827766615")) # ⚠️ Required
+    ADMIN = int(os.environ.get("ADMIN", "6264350806")) # ⚠️ Required
     LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1001774386816')) # ⚠️ Required
     BOT_UPTIME = BOT_UPTIME  = time.time()
     START_PIC = os.environ.get("START_PIC", "https://graph.org/file/15e82d7e665eccc8bd9c5.jpg")
