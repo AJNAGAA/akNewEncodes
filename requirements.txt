@@ -9,4 +9,3 @@ pyromod
 psutil
 Pillow
 humanize
-git+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
