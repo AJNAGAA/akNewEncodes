@@ -2,7 +2,6 @@ pyrogram
 TgCrypto
 python-dotenv
 hachoir
-python-ffmpeg==2.0.10
 aiohttp
 motor
 pytz
@@ -10,3 +9,4 @@ pyromod
 psutil
 Pillow
 humanize
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
