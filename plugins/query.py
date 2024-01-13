@@ -24,10 +24,10 @@ async def Cb_Handle(bot: Client, query: CallbackQuery):
 
     if data == 'home':
         btn = [
-            [InlineKeyboardButton(text='❗ Hᴇʟᴘ', callback_data='help'), InlineKeyboardButton(
-                text='🌨️ Aʙᴏᴜᴛ', callback_data='about')],
-            [InlineKeyboardButton(text='📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/Opleech'), InlineKeyboardButton
-                (text='💻 Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/WD_Contact_Bot')]
+            [InlineKeyboardButton(text='Hᴇʟᴘ ✨', callback_data='help'), InlineKeyboardButton(
+                text='Aʙᴏᴜᴛ 💻', callback_data='about')],
+            [InlineKeyboardButton(text='Uᴘᴅᴀᴛᴇs 📢', url='https://t.me/Sunrises24BotUpdates'), InlineKeyboardButton
+                (text='Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻', url='https://t.me/Sunrises_24')]
         ]
         await query.message.edit(text=Txt.PRIVATE_START_MSG.format(query.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
 
@@ -64,7 +64,7 @@ async def Cb_Handle(bot: Client, query: CallbackQuery):
 
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{file.file_name}`\n\n**File Size** :- `{humanize.naturalsize(file.file_size)}`"""
         buttons = [[InlineKeyboardButton("Rᴇɴᴀᴍᴇ 📝", callback_data=f"rename-{query.from_user.id}")],
-                   [InlineKeyboardButton("Cᴏᴍᴘʀᴇss 🗜️", callback_data=f"compress-{query.from_user.id}")]]
+                   [InlineKeyboardButton("Eɴᴄᴏᴅᴇ 💻", callback_data=f"compress-{query.from_user.id}")]]
 
         await query.message.edit(text=text, reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -93,11 +93,11 @@ async def Cb_Handle(bot: Client, query: CallbackQuery):
                 [InlineKeyboardButton(text='1080ᴘ', callback_data='1080pc'), InlineKeyboardButton(
                     text='4ᴋ', callback_data='2160pc')],
                 [InlineKeyboardButton(
-                    text='Cᴜsᴛᴏᴍ Eɴᴄᴏᴅɪɴɢ 🗜️', callback_data='custompc')],
+                    text='Cᴜsᴛᴏᴍ Eɴᴄᴏᴅɪɴɢ 💻', callback_data='custompc')],
                 [InlineKeyboardButton(text='✘ Cʟᴏꜱᴇ', callback_data='close'), InlineKeyboardButton(
                     text='⟸ Bᴀᴄᴋ', callback_data='option')]
             ]
-            await query.message.edit(text='**Select the Compression Method Below 👇 **', reply_markup=InlineKeyboardMarkup(BTNS))
+            await query.message.edit(text='**Select the Encode Method Below 👇 **', reply_markup=InlineKeyboardMarkup(BTNS))
 
     elif data == '480pc':
         try:
