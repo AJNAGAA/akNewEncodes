@@ -5,15 +5,15 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "24314944")  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "608c07ba57d9130d9974c9b3639ec570") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6463184992:AAEGu_OXXXWpnKIyop0L4WHwepvSddstRJg") # ⚠️ Required
-    FORCE_SUB = os.environ.get('FORCE_SUB', 'Opleech') # ⚠️ Required
+    API_ID    = os.environ.get("API_ID", "10811400")  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "191bf5ae7a6c39771e7b13cf4ffd1279") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6497663588:AAFcb9_eYNwSCm9shcPf5JO3X8FhBC85mDY") # ⚠️ Required
+    FORCE_SUB = os.environ.get('FORCE_SUB', 'Sunrises24BotUpdates') # ⚠️ Required
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None
    
     # database config
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://sessiongenerator:sessiongenerator@cluster0.zsejhr4.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
+    DB_URL  = os.environ.get("DB_URL","mongodb")  # ⚠️ Required
     DB_NAME  = os.environ.get("DB_NAME","WOODEncoderBot") 
 
     # Other Configs 
@@ -32,7 +32,7 @@ class Config(object):
 
 **Original File Size:** {1}
 **Encoded File Size:** {2}
-**Compression Percentage:** {3}
+**Encoded Compression Percentage:** {3}
 
 __Downloaded in {4}__
 __Encoded in {5}__
