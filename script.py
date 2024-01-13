@@ -34,7 +34,7 @@ Send me the correct ffmpeg code for more info.
 
 <code> -c:v libx264 -crf 23 </code> Tʜɪs ɪs ʏᴏᴜʀ ғғᴍᴘᴇɢ ᴄᴏᴅᴇ ✅
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @WD_Contact_Bot
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @SUNRISES24BOT
 """
 
     SEND_METADATA ="""
@@ -44,7 +44,7 @@ Send me the correct ffmpeg code for more info.
 
 ◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="My Video" -metadata author="John Doe" -metadata:s:s title="Subtitle Title" -metadata:s:a title="Audio Title" -metadata:s:v title="Video Title" </code>
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @WD_Contact_Bot
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @SUNRISES24BOT
 """
 
     
@@ -62,14 +62,14 @@ Available commands:-
 ➜ To Set Thumbnail just send photo
 
 
-<b>⦿ Developer:</b> <a href=https://t.me/WD_Contact_Bot>𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭,𝐬 𝐁𝐨𝐭</a>
+<b>⦿ Developer:</b> <a href=https://t.me/Sunrises_24>𝐇𝐀𝐑𝐒𝐇𝐀 𝟐𝟒 ✨</a>
 """
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : @{}
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/WD_Contact_Bot>𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭,𝐬 𝐁𝐨𝐭</a>
-├👑 Instagram : <a href=https://www.instagram.com/farooq_sekh_5>C-Insta</a> 
-├☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Opleech>❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™</a>
+├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/Sunrises_24><𝐇𝐀𝐑𝐒𝐇𝐀 𝟐𝟒 ✨/a>
+├🎬 Cʜᴀɴɴᴇʟ  : <a href=https://t.me/sunriseseditsoffical6>𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒™🎬</a> 
+├☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Sunrises_24>𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒™📢</a>
 ├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
 ├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
