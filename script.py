@@ -67,7 +67,7 @@ Available commands:-
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : @{}
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/Sunrises_24><𝐇𝐀𝐑𝐒𝐇𝐀 𝟐𝟒 ✨/a>
+├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/Sunrises_24>𝐇𝐀𝐑𝐒𝐇𝐀 𝟐𝟒 ✨</a>
 ├🎬 Cʜᴀɴɴᴇʟ  : <a href=https://t.me/sunriseseditsoffical6>𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒™🎬</a> 
 ├☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Sunrises_24>𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒™📢</a>
 ├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
