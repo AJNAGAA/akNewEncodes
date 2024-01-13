@@ -219,7 +219,7 @@ async def CompressVideo(bot, query, ffmpegcode, c_thumb):
         dtime = ts(int((es - s).seconds) * 1000)
 
         await ms.edit(
-            "**🗜 Compressing...**",
+            "**Eɴᴄᴏᴅɪɴɢ....⚡**",
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(text='Sᴛᴀᴛs 📊', callback_data=f'stats-{UID}')],
                 [InlineKeyboardButton(text='Cᴀɴᴄᴇʟ ❌', callback_data=f'skip-{UID}')]
