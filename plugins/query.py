@@ -88,8 +88,10 @@ async def Cb_Handle(bot: Client, query: CallbackQuery):
         else:
 
             BTNS = [
-                [InlineKeyboardButton(text='480ᴘ', callback_data='480pc'), InlineKeyboardButton(
-                    text='720ᴘ', callback_data='720pc')],
+                [InlineKeyboardButton(text='360ᴘ', callback_data='360pc'), InlineKeyboardButton(
+                    text='480ᴘ', callback_data='480pc')],
+                [InlineKeyboardButton(text='540ᴘ', callback_data='540pc'), InlineKeyboardButton(
+                    text='720p', callback_data='720pc')],
                 [InlineKeyboardButton(text='1080ᴘ', callback_data='1080pc'), InlineKeyboardButton(
                     text='4ᴋ', callback_data='2160pc')],
                 [InlineKeyboardButton(
@@ -99,10 +101,28 @@ async def Cb_Handle(bot: Client, query: CallbackQuery):
             ]
             await query.message.edit(text='**Select the Encode Method Below 👇 **', reply_markup=InlineKeyboardMarkup(BTNS))
 
+    elif data == '360pc':
+        try:
+            c_thumb = await db.get_thumbnail(query.from_user.id)
+            ffmpeg = "-preset faster -c:v libx265 -s 640x360 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1"
+            await CompressVideo(bot=bot, query=query, ffmpegcode=ffmpeg, c_thumb=c_thumb)
+
+        except Exception as e:
+            print(e)
+    
     elif data == '480pc':
         try:
             c_thumb = await db.get_thumbnail(query.from_user.id)
             ffmpeg = "-preset faster -c:v libx265 -s 854x480 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1"
+            await CompressVideo(bot=bot, query=query, ffmpegcode=ffmpeg, c_thumb=c_thumb)
+
+        except Exception as e:
+            print(e)
+
+      elif data == '540pc':
+        try:
+            c_thumb = await db.get_thumbnail(query.from_user.id)
+            ffmpeg = "-preset faster -c:v libx265 -s 960x540 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1"
             await CompressVideo(bot=bot, query=query, ffmpegcode=ffmpeg, c_thumb=c_thumb)
 
         except Exception as e:
