@@ -13,14 +13,14 @@ class Config(object):
     FORCE_SUB) else None
    
     # database config
-    DB_URL  = os.environ.get("DB_URL","mongodb")  # ⚠️ Required
-    DB_NAME  = os.environ.get("DB_NAME","WOODEncoderBot") 
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://PUBLICFILESTORE24BOT:PUBLICFILESTORE24BOT@cluster0.2l9nxfl.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
+    DB_NAME  = os.environ.get("DB_NAME","Cluster0") 
 
     # Other Configs 
-    ADMIN = int(os.environ.get("ADMIN", "6264350806")) # ⚠️ Required
-    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1001774386816')) # ⚠️ Required
+    ADMIN = int(os.environ.get("ADMIN", "6469754522")) # ⚠️ Required
+    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1001973961950')) # ⚠️ Required
     BOT_UPTIME = BOT_UPTIME  = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://graph.org/file/15e82d7e665eccc8bd9c5.jpg")
+    START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/5d0e09278a78ea7c517f4.jpg")
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
